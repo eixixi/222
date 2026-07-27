@@ -1,1 +1,13 @@
+name: Bark Push
 
+on:
+  schedule:
+    - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send Bark
+        run: |
+          curl "https://api.day.app/DV43twTRNjcKqnqFAQvE7L/祁宴/该找我聊天了"
