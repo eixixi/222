@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Send Bark
         run: |
-          curl "https://api.day.app/DV43twTRNjcKqnqFAQvE7L/祁宴/该找我聊天了"
+          curl "https://api.day.app/DV43twTRNjcKqnqFAQvE7L/洋洋/该找我聊天了"
