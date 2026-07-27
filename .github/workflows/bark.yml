@@ -2,7 +2,8 @@ name: Bark Push
 
 on:
   schedule:
-    - cron: '0 0,2,4,6,8,10,12,14,16,18,20,22 * * *'
+    - cron: '40 23 * * *'
+  workflow_dispatch:
 
 jobs:
   push:
